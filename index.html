@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <meta charset="UFT-8">
+      <title>Front-end  Projects</title>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Mini Form Project</h1>
+        <h6>with html & css</h6>
+        </div>
+          <form>
+            <input type="text" placeholder=" first name">
+             
+            <input type="text" placeholder="last name">
+             
+            <input type="text" placeholder="user name">
+        
+            <input type="email" placeholder="email">
+             
+            <input type="" placeholder="password">
+          
+            <button type = "submit">send</button>  
+          </form>
+        
+    </body>
+     <style>
+        h1{
+            font-family:italic;
+            justify-content: center;
+            color: rgba(10, 79, 71, 0.833);
+             margin: 0 0 5px;
+
+
+        }
+          h6{
+            font-family:italic;
+            justify-content: center;
+            color: rgba(133, 113, 90, 0.833);
+            margin: 0 0 20px;
+             text-align :right;
+
+
+        }
+
+           body{
+            background-color: rgb(217, 242, 233);
+            display :flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items: center;
+            min-height: 100vh;  
+            font-family: italic;
+
+        }
+        form{
+            background-color: rgb(209, 238, 225);
+            padding:40px;
+            width:60%;
+            display: flex;
+            flex-wrap:wrap;
+            box-shadow: 0 8px 8px rgb(26, 71, 63); 
+            border-radius: 8px;
+            gap:30px;
+            align-content: flex-start; 
+           
+        }
+        form input{
+            background-color:rgba(107, 177, 155, 0.132);
+            border: 2px solid rgba(103, 80, 66, 0.6);
+            padding:5px 10px;
+            height: 40px;
+            width: 90px;
+             flex-basis:200px; /*it's equal  to  the  width :200px; */
+             flex-grow:1;
+             border-radius: 15px;  
+             color:rgb(53, 74, 68);
+              font-family: italic;
+              outline-color: rgb(110, 109, 109);
+              outline-width: 1px;
+              box-shadow: 0 3px 8px rgba(26, 71, 63, 0.815); 
+              flex: 1 1 100%; 
+               
+        }
+        form button{
+            background-color: rgba(10, 79, 71, 0.833);
+            border: 1.5px solid rgba(103, 80, 66, 0.6);
+            width:300px;
+            height: 40px;
+            color:rgb(211, 190, 163);
+             font-family: italic;
+             padding:5px 10px;
+             flex-grow:1;
+             border-radius: 15px; 
+             cursor: pointer;
+             box-shadow: 0 3px 8px rgba(26, 71, 63, 0.776); 
+        }
+
+    </style>
+</html>
